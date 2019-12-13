@@ -259,8 +259,7 @@ import PackageDescription
 let package = Package(
     name: "AmbassadorExample",
     dependencies: [
-        .package(url: "https://github.com/envoy/Ambassador.git",
-                 from: "4.0.0"),
+        .package(url: "https://github.com/tlk/Ambassador", from: "4.0.5"),
     ]
 )
 ```
